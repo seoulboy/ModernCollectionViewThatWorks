@@ -44,7 +44,7 @@ extension ItemBadgeSupplementaryViewController {
                                               heightDimension: .absolute(20))
         let badge = NSCollectionLayoutSupplementaryItem(
             layoutSize: badgeSize,
-            elementKind: ItemBadgeSupplementaryViewController.badgeElementKind,
+            elementKind: BadgeSupplementaryView.reuseIdentifier,
             containerAnchor: badgeAnchor)
 
         let itemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(0.25),
